@@ -12,9 +12,9 @@ w = Fore.LIGHTWHITE_EX
 def setTitle(_str):
     system = os.name
     if system == 'nt':
-        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str} - Made By Astraa")
+        ctypes.windll.kernel32.SetConsoleTitleW(f"{_str} - Made By rxpzmark")
     elif system == 'posix':
-        sys.stdout.write(f"\x1b]0;{_str} - Made By Astraa\x07")
+        sys.stdout.write(f"\x1b]0;{_str} - Made By rxpzmark\x07")
     else:
         pass
 
@@ -157,9 +157,9 @@ def getheaders(token=None):
     return headers
 
 def discserver():
-    print(f"""{y}------------------------------------------------------------------------------------------------------------------------\n{w}raadev {b}|{w} https://dsc.gg/astraadev {b}|{w} https://github.com/AstraaDev {b}|{w} https://ngu.bet/ {b}|{w} https://dsc.gg/ngubet {b}|{w} https://di\n{y}------------------------------------------------------------------------------------------------------------------------\n""")
+    print(f"""{y}------------------------------------------------------------------------------------------------------------------------\n{w}raadev {b}|{w} https://dsc.gg/rxpzmarkdev {b}|{w} https://github.com/rxpzmarkDev {b}|{w} https://ngu.bet/ {b}|{w} https://dsc.gg/ngubet {b}|{w} https://di\n{y}------------------------------------------------------------------------------------------------------------------------\n""")
 
-def astraahometitle():
+def rxpzmarkhometitle():
     print(f"""\n\n                            ██████╗ ████████╗██╗ ██████╗     ████████╗ ██████╗  ██████╗ ██╗     
                            ██╔═══██╗╚══██╔══╝██║██╔═══██╗    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     
                            ██║██╗██║   ██║   ██║██║   ██║       ██║   ██║   ██║██║   ██║██║     

