@@ -53,7 +53,6 @@ $ python3 atio.py
 ## Additional Informations
 General Informations:
 - If you have a problem, [CLICK HERE](https://www.youtube.com/watch?v=AN3Z_x6HQi0) to watch the YouTube video.
-- Find your output files in the  [output](/output) folder.
 
 Script Informations:
 - For the operation of the RAT Tool, please refer to the [creator's page](https://github.com/moom825/Discord-RAT).
