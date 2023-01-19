@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.discord.fr/PSS.png">
+  <img src="https://i.pinimg.com/564x/49/f9/6e/49f96e0d81fcaf0224b434a51d6ff7de.jpg">
 </p>
 
-<h1 align="center">[ATIO] - DISCORD TOOL</h1>
+<h1 align="center">DISCORD TOOL</h1>
 
 
 <p align="center">
