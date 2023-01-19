@@ -106,7 +106,7 @@ def main():
         elif choice == '24':
             transition()
             rxpzmarkhometitle()
-            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @rxpzmarkDev\n                                                {y}[{w}#{y}]{w} Server:    dsc.gg/rxpzmarkddev\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Twitter:   @rxpzmarkDev\n                                                {y}[{w}#{y}]{w} Discord:   rxpzmark#6100\n                                                {y}[{w}#{y}]{w} Insta:     @rxpzmarkftn\n\n\n\n""")
+            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @rxpzmark\n                                                {y}[{w}#{y}]{w} Server:    https://discord.gg/caFG5axADB\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Discord:   0x41414141#5231\n                                                {y}[{w}#{y}]{w} Insta:     @rxpzmarkftn\n\n\n\n""")
             input(f"""{y}[{b}#{y}]{w} Press ENTER to exit""")
             main()
         elif choice == '25':
