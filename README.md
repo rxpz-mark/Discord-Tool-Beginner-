@@ -54,13 +54,10 @@ $ python3 atio.py
 General Informations:
 - If you have a problem, [CLICK HERE](https://www.youtube.com/watch?v=AN3Z_x6HQi0) to watch the YouTube video.
 - Find your output files in the  [output](/output) folder.
-- If you find any malfunction, contact me on Discord: Astraa#6100.
 
 Script Informations:
 - For the operation of the RAT Tool, please refer to the [creator's page](https://github.com/moom825/Discord-RAT).
 
-## Example
-![home.png](https://cdn.discordapp.com/attachments/778283706388709376/983080071805952040/unknown.png?size=4096)
 
 ## Errors/Fixes
 
