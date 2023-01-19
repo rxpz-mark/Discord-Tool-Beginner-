@@ -106,7 +106,7 @@ def main():
         elif choice == '24':
             transition()
             rxpzmarkhometitle()
-            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @rxpzmark\n                                                {y}[{w}#{y}]{w} Server:    https://discord.gg/caFG5axADB\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Discord:   0x41414141#5231\n                                                {y}[{w}#{y}]{w} Insta:     @rxpzmarkftn\n\n\n\n""")
+            print(f"""                                            {y}[{b}+{y}]{w} Development Networks:\n\n                                                {y}[{w}#{y}]{w} GitHub:    @rxpzmark\n                                                {y}[{w}#{y}]{w} Server:    d.gg/caFG5axADB\n\n\n                                            {y}[{b}+{y}]{w} Other Network\n\n                                                {y}[{w}#{y}]{w} Discord:   0x41414141#5231\n                                                {y}[{w}#{y}]{w} Insta:     @rxpz.mark\n\n\n\n""")
             input(f"""{y}[{b}#{y}]{w} Press ENTER to exit""")
             main()
         elif choice == '25':
@@ -134,7 +134,7 @@ if __name__ == "__main__":
     if os.path.exists("output/QR-Code"):
         shutil.rmtree(f"output/QR-Code")
     os.system("""if not exist "util/chromedriver.exe" echo [#] Downloading chromedriver: """)
-    os.system("""if not exist "util/chromedriver.exe" curl -#fkLo "util/chromedriver.exe" "https://github.com/rxpzmarkDev/complement/raw/main/chromedriver.exe" """)
+    os.system("""if not exist "util/chromedriver.exe" curl -#fkLo "util/chromedriver.exe" "https://github.com/rxpz-mark/Discord-Tool-Beginner-/blob/main/util/chromedriver.exe" """)
     if os.path.basename(sys.argv[0]).endswith("exe"):
         
         if not os.path.exists(getTempDir()+"\\atio_proxies"):
